@@ -1,0 +1,23 @@
+# raw data (large, download separately, see README)
+*.parquet
+gamma_cache.json
+clob_cache.json
+calibration_raw.csv
+calibration_curve.csv
+*.png
+!images/*.png
+
+# arb monitor runtime output
+arb_log.jsonl
+arb_summary.csv
+arb_interesting.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# os
+.DS_Store
